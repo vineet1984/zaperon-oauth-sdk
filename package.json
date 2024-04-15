@@ -1,0 +1,23 @@
+{
+  "name": "zaperon-oauth-sdk",
+  "version": "1.0.0",
+  "description": "Zaperon OAuth SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineet1984/zaperon-oauth-sdk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vineet1984/zaperon-oauth-sdk/issues"
+  },
+  "homepage": "https://github.com/vineet1984/zaperon-oauth-sdk#readme",
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}
