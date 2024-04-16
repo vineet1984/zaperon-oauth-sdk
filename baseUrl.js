@@ -1,1 +1,1 @@
-export const baseUrl = "https://uat-api.zaperon.com:8449/";
+export const baseUrl = "https://api.zaperon.com:8449/";
