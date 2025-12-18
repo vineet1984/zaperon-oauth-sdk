@@ -95,7 +95,7 @@ const getAccessTokenFromCode = async (obj) => {
 
     if (response.ok) {
       const data = await response.json()
-      return data;
+      return {...data, status_code: 200};
     } else {
       let data = await response.json();
       console.error("Error: Unable to get oauth2 token! ", data);
@@ -172,7 +172,8 @@ async function getUserDetailsUsingToken(token) {
         headers: headers,
       });
       if (response.ok) {
-        return await response.json();
+        const data = await response.json()
+        return {...data, status_code: 200};
       } else {
         let data = await response.json();
         console.error("Error: ", data);
