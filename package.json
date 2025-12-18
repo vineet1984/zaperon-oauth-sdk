@@ -1,6 +1,6 @@
 {
   "name": "zaperon-oauth-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zaperon OAuth SDK",
   "main": "index.js",
   "scripts": {
