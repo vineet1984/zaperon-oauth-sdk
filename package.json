@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/vineet1984/zaperon-oauth-sdk#readme",
   "dependencies": {
-    "crypto-js": "^4.2.0"
+    "crypto-js": "^4.2.0",
+    "jose": "^6.1.3"
   }
 }
